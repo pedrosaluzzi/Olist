@@ -43,6 +43,7 @@ def real_vs_esperado(dataframe, is_delivered=True):
     
     return dataframe
 
+
 def puntaje_de_compra(df):
     def es_cinco_estrellas(col): #creo la primer funcion que hace que si es 5 estrellas me de 1, sino 0
         return 1 if col == 5 else 0 
